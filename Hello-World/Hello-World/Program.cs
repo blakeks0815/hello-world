@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.IO;
+
 namespace Hello_World {
     class Program {
         static void Main(string[] args) {
@@ -12,12 +14,16 @@ namespace Hello_World {
             program.mainProgram();
 
             Console.WriteLine("Finish");
-            Console.WriteLine();
+            Console.ReadLine();
         }
 
         public void mainProgram() {
 
+            string path = @"testFiles\test.dat";
 
+            StreamReader reader = new StreamReader(path);
+            string result = reader.ReadToEnd();
+            Console.WriteLine("Result: " + result);
         }
     }
 }
