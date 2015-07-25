@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello-World", "Hello-World\Hello-World.csproj", "{002D055C-0BF6-46CF-95AB-F263D2C7811D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldTest", "HelloWorldTest\HelloWorldTest.csproj", "{AEBE1FDD-7F73-493A-98D5-2B442A1849B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{002D055C-0BF6-46CF-95AB-F263D2C7811D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{002D055C-0BF6-46CF-95AB-F263D2C7811D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{002D055C-0BF6-46CF-95AB-F263D2C7811D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBE1FDD-7F73-493A-98D5-2B442A1849B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBE1FDD-7F73-493A-98D5-2B442A1849B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBE1FDD-7F73-493A-98D5-2B442A1849B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBE1FDD-7F73-493A-98D5-2B442A1849B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
